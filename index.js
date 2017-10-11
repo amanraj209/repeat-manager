@@ -3,7 +3,7 @@ const path = require('path');
 const os = require('os');
 
 const HOME_DIR = os.homedir();
-const MAIN_DIR = path.join(HOME_DIR, 'Desktop', 'repeat-manager', 'PDFs');
+const MAIN_DIR = path.join(HOME_DIR, 'Desktop', 'repeat-manager', 'temp');
 
 function deleteFiles(DIR_PATH) {
     const files = fs.readdirSync(DIR_PATH);
